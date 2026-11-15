@@ -12,18 +12,16 @@ If you would like to use or modify this portfolio, please:
 2. **Fork** the repository instead of cloning or downloading it directly.
 3. **Credit** Ebraheem Alhetari as the original coder and animator, and acknowledge **Huy Nguyen** for the original UI design.
 
-In the `data.ts` file, there are resource links that credit the original designer and other relevant sources:
+In the `data.ts` file, my active profiles and contact channels are configured:
 
 ```ts
-const resourceLinks = [
-  {
-    label: 'Huy Nguyen (the UI designer)',
-    url: 'https://www.huyng.xyz',
-  },
-  {
-    label: 'Ebraheem Alhetari',
-    url: 'https://github.com/Hetari/portfolio',
-  },
+const socialLinks = [
+  { label: 'GitHub', url: 'https://github.com/MK-codes365' },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/mukut-kumar/' },
+  { label: 'X', url: 'https://x.com/Mukutkumar89' },
+  { label: 'LeetCode', url: 'https://leetcode.com/u/mukut_kumar_089/' },
+  { label: 'GeeksforGeeks', url: 'https://www.geeksforgeeks.org/profile/mukutkumar89' },
+];
 ```
 
 By following these guidelines, you'll be respecting the effort and collaboration behind this project.
@@ -60,10 +58,10 @@ To view the project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/hetari/portfolio
+git clone https://github.com/MK-codes365/My-portfolio.git
 
 # Navigate to the project directory
-cd portfolio
+cd My-portfolio
 
 # Install dependencies
 npm install

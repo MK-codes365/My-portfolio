@@ -17,8 +17,8 @@ export default defineConfig({
     vue(),
     robots(),
     sitemap({
-      hostname: 'https://hetari.github.io/',
-      basePath: 'portfolio',
+      hostname: 'https://github.com/MK-codes365/My-portfolio',
+      basePath: '',
       changefreq: 'hourly', // default: 'daily'
       priority: 1,
     }),

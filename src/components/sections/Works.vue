@@ -207,8 +207,6 @@
   import { computed, onBeforeMount, onMounted, ref, useTemplateRef } from 'vue';
   import gsap from 'gsap';
   import { useWindowSize } from '@vueuse/core';
-  import { work4 } from '@/assets/videos';
-  import { workBg4 } from '@/assets/images';
   const videoRefs = useTemplateRef<HTMLVideoElement[]>('videoRefs');
 
   const isSmallScreen = computed(() => {
@@ -290,20 +288,6 @@
       githubUrl: 'https://github.com/MK-codes365/urlshortner',
       demoUrl: 'https://github.com/MK-codes365/urlshortner#readme',
       year: '2025',
-    },
-    {
-      name: 'Physio NutriCore',
-      category: 'Healthcare EHR & Role-Based Portal',
-      description:
-        'Production clinical management and patient health records portal built with React 19, JWT role-based access control, interactive analytics charts, and real-time appointment tracking.',
-      tags: ['React 19', 'TypeScript', 'Tailwind CSS', 'JWT Auth', 'REST APIs'],
-      badge: 'Internship Production Portal',
-      accent: '#f43f5e',
-      videoSrc: work4,
-      poster: workBg4,
-      githubUrl: 'https://github.com/MK-codes365',
-      demoUrl: 'https://github.com/MK-codes365',
-      year: '2026',
     },
   ];
 
