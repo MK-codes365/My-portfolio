@@ -4,28 +4,20 @@
 
 Welcome to my portfolio! I'm **Mukut Kumar**, a full-stack developer and freelancer with a passion for creating immersive web experiences. Specializing in **Vue.js**, **GSAP** animations, and **Tailwind CSS**, I craft elegant, responsive, and fully animated websites.
 
-## 📜 Important Note
-
-If you would like to use or modify this portfolio, please:
-
-1. **Star** this repository on GitHub.
-2. **Fork** the repository instead of cloning or downloading it directly.
-3. **Credit** Ebraheem Alhetari as the original coder and animator, and acknowledge **Huy Nguyen** for the original UI design.
-
-In the `data.ts` file, my active profiles and contact channels are configured:
-
 ```ts
 const socialLinks = [
   { label: 'GitHub', url: 'https://github.com/MK-codes365' },
   { label: 'LinkedIn', url: 'https://www.linkedin.com/in/mukut-kumar/' },
   { label: 'X', url: 'https://x.com/Mukutkumar89' },
   { label: 'LeetCode', url: 'https://leetcode.com/u/mukut_kumar_089/' },
-  { label: 'GeeksforGeeks', url: 'https://www.geeksforgeeks.org/profile/mukutkumar89' },
+  {
+    label: 'GeeksforGeeks',
+    url: 'https://www.geeksforgeeks.org/profile/mukutkumar89',
+  },
 ];
 ```
 
 By following these guidelines, you'll be respecting the effort and collaboration behind this project.
-
 
 ## 🛠 Tech Stack
 
@@ -39,7 +31,7 @@ This portfolio showcases my expertise in modern web technologies, including:
 
 ## ✨ Features
 
-The entire portfolio is a dynamic and animated experience, designed to capture attention and showcase my skills. A key aspect is its visually captivating UI, originally designed by the talented freelancer **Huy Nguyen**, whom I acknowledge and credit for allowing me to use and clone his design.
+The entire portfolio is a dynamic and animated experience, designed to capture attention and showcase my skills.
 
 ## 🔍 Portfolio Sections
 
@@ -71,11 +63,3 @@ npm run dev
 ```
 
 You can now view the portfolio on `http://localhost:5173` in your browser.
-
-## 🌱 Future Plans
-
-I am continuously improving my portfolio and plan to add **Arabic language support** soon, making it fully bilingual for both English and Arabic users.
-
-## 🎨 Acknowledgments
-
-I want to extend a special thank you to **Huy Nguyen** for his original UI design, which I have cloned with his permission. His creative vision has been instrumental in shaping the look and feel of this portfolio.
